@@ -37,7 +37,7 @@ const Fallback: React.FC = () => {
   };
 
   return (
-    <div className="flex mx-auto h-screen max-w-[500px] w-full flex-col items-center justify-center h-screen bg-foreground p-6 mt-12 text-white">
+    <div className="flex mx-auto h-screen max-w-[500px] w-full flex-col items-center justify-center bg-foreground p-6 mt-12 text-white">
       <h1 className="text-3xl font-bold mb-6">
         {isOnline ? "You are online!" : "You are offline"}
       </h1>
